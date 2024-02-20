@@ -1,0 +1,50 @@
+.footer-main {
+    padding: 40px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #2b2730;
+  }
+  
+  .footer-main .logo-kloudeats {
+    width: 100px;
+  }
+  
+  .footer-main .social-icons {
+    color: white;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-main .social-icons .social-icon {
+    width: 20px;
+    height: 18px;
+  }
+  
+  .footer-main .copyright {
+    font-size: 13px;
+    color: white;
+  }
+  
+  .footer-main .copyright .green-text {
+    color: #ffaa00;
+  }
+  
+  @media (max-width: 992px) {
+    .footer-main {
+      flex-direction: column;
+      gap: 20px;
+      padding: 40px 33px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footer-main .logo-kloudeats {
+      width: 100% !important;
+      justify-content: center;
+      display: flex;
+    }
+  }
